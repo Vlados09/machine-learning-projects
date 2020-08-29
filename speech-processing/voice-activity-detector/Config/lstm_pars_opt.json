@@ -1,0 +1,22 @@
+{
+  "LSTM": {
+    "model": {
+      "ker_reg1": 1e-5,
+      "ker_reg2": 1e-5,
+      "l1": [50, 300],
+      "d1": 0.3,
+      "l2": [100, 1000],
+      "d2": 0.3,
+      "lr": 1e-5
+    },
+    "train": {
+      "epochs": 100,
+      "batch_size": 2048,
+      "verbose": 0,
+      "validation_split": 0
+    },
+    "data": {
+      "n_steps": [5, 10]
+    }
+  }
+}

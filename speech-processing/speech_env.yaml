@@ -1,0 +1,10 @@
+name: speech
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - matplotlib
+prefix: /opt/anaconda3/envs/speech
+

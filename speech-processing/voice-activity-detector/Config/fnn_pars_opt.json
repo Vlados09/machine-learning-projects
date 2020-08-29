@@ -1,0 +1,22 @@
+{
+  "FNN": {
+    "model": {
+      "ker_reg1": [1e-5, 1e-2],
+      "ker_reg2": [1e-5, 1e-2],
+      "l1": 2000,
+      "l2": [100, 2000],
+      "d1": 0.5,
+      "d2": [0.2, 0.5],
+      "lr": 1e-5
+    },
+    "train": {
+      "epochs": 100,
+      "batch_size": 2048,
+      "verbose": 0,
+      "validation_split": 0
+    },
+    "data": {
+      "n_steps": 8
+    }
+  }
+}

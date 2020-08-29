@@ -1,0 +1,11 @@
+name: vlad-speech
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - matplotlib
+  - python=3.7
+  - numpy
+  - pandas
+

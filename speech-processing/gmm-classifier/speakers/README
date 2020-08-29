@@ -1,0 +1,11 @@
+100 sentences from 20 speakers from the TIMIT database 
+
+ - files are compressed using bzip2. 
+ - features provided are
+	form	formants F0-F4
+	mfb		26 mel fitlerbanks + log energy
+	mfc		12 mfcc's + log energy
+ - file format 
+   <spkr ID> <utterance ID> <feature value1> <feature value2> ...
+
+
