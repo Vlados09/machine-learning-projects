@@ -1,0 +1,15 @@
+name: ml
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - ipywidgets
+  - notebook
+  - matplotlib
+  - numpy=1.18
+  - pandas=1.0
+  - python=3.6
+  - tensorflow=2
+  - tensorflow-datasets=1.2
