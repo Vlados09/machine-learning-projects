@@ -1,0 +1,9 @@
+name: NLP
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - jupyter
+  - matplotlib
+  - scikit-learn
+  - numpy
